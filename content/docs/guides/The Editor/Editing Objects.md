@@ -1,9 +1,9 @@
 ---
-title: Editing Objects
+title: Editing Objects test test
 weight: 102
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
+{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **This better work** (7-9 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Z layer and Z order let you place objects on top of or behind each other.
@@ -43,17 +43,17 @@ Objects with a lower tileset will *ALWAYS* be above objects with a higher tilese
 Groups are a fundamental system that allows triggers to target certain objects, however more detail will be in the Using IDs.md guide. For now, we will only cover how to assign groups.
 
 Here’s how to add groups:
-1. In the middle of the {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} menu, there is a counter labeled "Add Group ID." 
-2. You can type in or select an ID, then click Add to add the object to the group. 
+1. In the middle of the {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} menu, there is a counter labeled "Add Group ID."
+2. You can type in or select an ID, then click Add to add the object to the group.
 3. If you want a brand new group that hasn’t been used before, click Next Free and then click Add.
-4. Alternatively, click P to make the object the Parent Group, which will once again be covered in the Groups guide. 
+4. Alternatively, click P to make the object the Parent Group, which will once again be covered in the Groups guide.
 5. To delete a group, click its number in the Group Box. To remove an object from Parent Group, click its number once.
 
 {{< youtube KokRk54 >}}
 
 # 3: Extra Tabs
 
-The two extra tabs give you more options to customize your objects. 
+The two extra tabs give you more options to customize your objects.
 ## Extra Tab 1
 **Extra Tab 1** __lets you select different options to give your objects different properties__. This section will go over the different options.
 
@@ -66,7 +66,7 @@ youtube [insert editing objects 4 vid id]
 - **Don’t BoostY** and **Don’t BoostX**: __Stops the player from being boosted by moving blocks.__
 - **High Detail**: __When enabling "Low Detail Mode" outside the editor and playing the level, objects with High Detail will disappear__, making the level less laggy.
 - **NoTouch**: __Removes collisions from objects with a hitbox (e.g. Static Objects.md), converting them to Detail Objects.md.__
-- **Passable**: __Allows the player to go through the block from the bottom or side__, making for passable platforms. 
+- **Passable**: __Allows the player to go through the block from the bottom or side__, making for passable platforms.
 - **Hide**: __Makes the object completely invisible__. Toggling off Hide Invisible in the editor pause menu allows you to see the hidden objects.
 - **NonStickX and NonStickY**: When moving objects in platformer mode, the __player will not stick to the object if they’re on top of it.__
 - **ExtraStickY**: When moving objects downward fast with the player on it, __this keeps the player on the object rather than having the player fall as if walking off a platform__.
@@ -93,7 +93,7 @@ Keep in mind that not all objects are able to have certain IDs, meaning that som
 youtube [insert editing object 5 vid is]
 
 ## Anim
-The **Anim** button right under the Extra2 button serves as a __shortcut to creating keyframes__. 
+The **Anim** button right under the Extra2 button serves as a __shortcut to creating keyframes__.
 
 If you give some objects a group, and have only one object as the "parent group", you can click the anim button and it will spawn a keyframe object (the diamond shaped object) on top of the parent group. You can then use the keyframe object as normal.
 
